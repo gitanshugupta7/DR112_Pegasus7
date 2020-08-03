@@ -1,0 +1,18 @@
+<div class="row hero-section">
+    <h1 class="hero-header">Ongoing</h1>
+      <div class="hero-table">
+        <table>
+          <tr>
+            <th id="hero-table-header1">Address</th>
+            <th id="hero-table-header3">Completed</th>
+          </tr>
+          <tr *ngFor = "let pothole of pothole">
+            <td id="table-address"><a href="http://maps.google.com/maps?q={{pothole.coordinates}}" target="_blank">{{pothole.address}}</a></td>
+            <td>
+              <button class="data-completebutton" (click)= "OngoingToCompleted(pothole.complaint_id)"></button>
+            </td>
+          </tr>
+        </table>
+      </div>
+</div>
+

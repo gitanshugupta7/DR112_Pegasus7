@@ -1,0 +1,16 @@
+<div class="row hero-section">
+    <h1 class="hero-header">Completed</h1>
+      <div class="hero-table">
+        <table>
+          <tr>
+            <th id="hero-table-header1">Address</th>
+            <th id="hero-table-header2">Date Of Completion</th>
+          </tr>
+          <tr *ngFor = "let pothole of pothole">
+            <td id="table-address"><a href="http://maps.google.com/maps?q={{pothole.coordinates}}" target="_blank">{{pothole.address}}</a></td>
+            <td id="table-date">{{pothole.completed_timestamp | date:"dd/MM/yyyy"}}</td>
+          </tr>
+        </table> 
+      </div>
+</div>
+

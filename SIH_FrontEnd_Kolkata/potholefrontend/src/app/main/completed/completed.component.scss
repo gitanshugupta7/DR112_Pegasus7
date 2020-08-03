@@ -1,0 +1,54 @@
+$bg-colour1: #e3b697;
+$bg-colour2: #dbf6f1;
+$font-color: #52546b;
+
+
+.hero-section {
+    position: relative;
+    .hero-header {
+      position: absolute;
+      top: 1rem;
+      font-family: SFTHeavy;
+      font-size: 4rem;
+      color: $font-color;
+      margin: 0 0 0 3rem;
+    }
+    .hero-table {
+      position: absolute;
+      top: 7rem;
+      margin: 0 0 0 3rem;
+      background-color: $bg-colour2;
+      width: 95%;
+      height: 50rem;
+      border-radius: 1rem;
+      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+      overflow-y: auto;
+    }
+    tr{
+      font-size: 1.5rem;
+      font-family: SFTLight;
+      }
+    #table-address{
+      padding: 1rem 0 1rem 3rem;
+      cursor: pointer;
+       a{
+         color: $font-color;
+       }
+    }
+    #hero-table-header1{
+      font-size: 2rem;
+      font-family: SFTSemiBold;
+      padding: 1rem 20rem 1rem 3rem;
+      color: $font-color; 
+    }
+    #hero-table-header2{
+      font-size: 2rem;
+      font-family: SFTSemiBold;
+      padding: 1rem 3rem 1rem 8rem;
+      color: $font-color; 
+    }
+   #table-date{
+     padding: 1rem 0 1rem 11rem;
+   }
+  }
+  

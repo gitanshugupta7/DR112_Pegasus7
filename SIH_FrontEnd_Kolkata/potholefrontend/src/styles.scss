@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: SFTBold;
+  src: url("/assets/fonts/SF-Pro-Display-Bold.otf");
+}
+@font-face {
+  font-family: SFTHeavy;
+  src: url("/assets/fonts/SF-Pro-Text-Heavy.otf");
+}
+@font-face {
+  font-family: SFTLight;
+  src: url("/assets/fonts/SF-Pro-Text-Light.otf");
+}
+@font-face {
+  font-family: SFTSemiBold;
+  src: url("/assets/fonts/SF-Pro-Text-Semibold.otf");
+}
+@font-face {
+  font-family: SFTRegular;
+  src: url("/assets/fonts/SF-Pro-Text-Regular.otf");
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media screen and (min-width: 889px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (min-width: 950px) {
+  html {
+    font-size: 56%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+$bg-colour1: #e3b697;
+$bg-colour2: #dbf6f1;
+$font-color: #52546b;
